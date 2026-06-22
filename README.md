@@ -1,1 +1,1 @@
-This is the python-hello_world directory
+This is the README file and it's not empty
