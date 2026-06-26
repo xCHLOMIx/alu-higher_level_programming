@@ -11,4 +11,4 @@ def fizzbuzz():
         else:
             final += f"{i} "
     return final
-print(fizzbuzz())
+print(fizzbuzz(), end="")
