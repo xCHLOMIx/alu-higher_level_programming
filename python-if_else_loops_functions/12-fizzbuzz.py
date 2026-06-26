@@ -9,5 +9,6 @@ def fizzbuzz():
         elif i % 3 == 0 and i % 5 == 0:
             final += "FizzBuzz "
         else:
-            final += "i "
+            final += f"{i} "
     return final
+print(fizzbuzz())
