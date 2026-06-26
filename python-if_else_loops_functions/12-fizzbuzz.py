@@ -10,3 +10,4 @@ def fizzbuzz():
             final += "FizzBuzz "
         else:
             final += "i "
+    return final
