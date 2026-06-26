@@ -7,8 +7,7 @@ if number > 0:
 elif number == 0:
     ld = 0
 else:
-    ld = int(str(number)[-1]) * -1 
-
+    ld = int(str(number)[-1]) * -1
 if ld > 5:
     print(f"Last digit of {number:d} is {ld:d} and is greater than 5")
 elif ld == 0:
