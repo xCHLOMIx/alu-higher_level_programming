@@ -4,5 +4,5 @@ def print_last_digit(number):
         print(str(number)[-1], end="")
         return str(number)[-1]
     else:
-        print(str((number * -1))[-1], end="i")
+        print(str((number * -1))[-1], end="")
         return str((number * -1))[-1]
