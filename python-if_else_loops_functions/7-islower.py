@@ -2,6 +2,6 @@
 islower = __import__('7-islower').islower
 def islower(letter):
     if letter.islower():
-        print f"{letter} is lower"
+        print(f"{letter} is lower")
     else:
-        print f"{letter} is upper"
+        print(f"{letter} is upper")
