@@ -8,6 +8,6 @@ for i in range(0, 10):
         if i >= 5 and int(str(i) + str(j)) > int(str(j) + str(i)) and j + i == i + j:
             continue
         if i == 8 and j == 9:
-            print("{}{}".format(i,j), end="\n")
+            print("{}{}".format(i, j), end="\n")
             continue
-        print("{}{}".format(i,j), end=", ")
+        print("{}{}".format(i, j), end=", ")
