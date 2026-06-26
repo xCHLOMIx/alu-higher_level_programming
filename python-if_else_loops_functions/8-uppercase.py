@@ -6,6 +6,9 @@ def uppercase(str):
         if i == " ":
             final += i
             continue
+        if i == ",":
+            final += i
+            continue
         if ord(i) >= 48 and ord(i) <= 57:
             final += i
             continue
