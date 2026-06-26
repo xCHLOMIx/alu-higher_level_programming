@@ -12,4 +12,4 @@ def uppercase(str):
         upper = ord(i) - 32
         final += chr(upper)
     return final
-print(uppercase("Best School 98 Battery street"))
+print("{}".format(uppercase("Best School 98 Battery street")))
