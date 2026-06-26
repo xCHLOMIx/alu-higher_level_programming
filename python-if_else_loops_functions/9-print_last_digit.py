@@ -2,7 +2,7 @@
 def print_last_digit(number):
     if number > 0:
         print(str(number)[-1], end="")
-        return str(number)[-1] + str(number)[-1]
+        return str(number)[-1]
     else:
-        print(str((number * -1))[-1], end="")
-        return str((number * -1))[-1] + str(number)[-1]
+        print(str((number * -1))[-1], end="i")
+        return str((number * -1))[-1]
