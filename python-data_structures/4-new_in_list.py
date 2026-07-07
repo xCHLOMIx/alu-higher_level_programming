@@ -1,11 +1,10 @@
 #!/usr/bin/python3
 def new_in_list(my_list, idx, element):
-    a = my_list
     if idx < 0:
-        return a
+        return my_list
     if idx > len(my_list) - 1:
-        return a
+        return my_list
     else:
-        b = a
+        b = my_list[:idx] + [element] + my_list[idx + 1:]
         b[idx] = element
         return b
