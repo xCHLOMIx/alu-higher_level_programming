@@ -1,11 +1,14 @@
 #!/usr/bin/python3
 def no_c(my_string):
     arr = []
-    index = 0
-    for i in my_string:
-        arr.append(i)
+    c = []
+    for letter in my_string:
+        arr.append(letter)
     for i in arr:
-        if i == "C" or i == "c":
-            arr.pop(index)
-        index += 1
+        if i.lower() == "c":
+            c.append(i)
+            print(c)
+    for i in c:
+        arr.pop(arr.index(i))
     return "".join(arr)
+print(no_c("HellcCcccooccoscccss"))
