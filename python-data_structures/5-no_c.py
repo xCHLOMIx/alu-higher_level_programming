@@ -7,8 +7,6 @@ def no_c(my_string):
     for i in arr:
         if i.lower() == "c":
             c.append(i)
-            print(c)
     for i in c:
         arr.pop(arr.index(i))
     return "".join(arr)
-print(no_c("HellcCcccooccoscccss"))
