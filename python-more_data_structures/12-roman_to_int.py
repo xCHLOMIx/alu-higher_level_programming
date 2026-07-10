@@ -67,6 +67,3 @@ def roman_to_int(roman_string):
     if "IX" in roman_string:
         i = 9
     return m + c + x + i
-
-roman_number = "DCCVII"
-print("{} = {}".format(roman_number, roman_to_int(roman_number)))
