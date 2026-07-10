@@ -7,7 +7,6 @@ def list_division(my_list_1, my_list_2, list_length):
         except TypeError:
             print("wrong type")
         except ZeroDivisionError:
-            r.appendi
             print("division by 0")
         except IndexError:
             print("out of range")
