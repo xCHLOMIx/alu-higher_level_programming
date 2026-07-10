@@ -4,7 +4,8 @@ def roman_to_int(roman_string):
     c = 0
     x = 0
     i = 0
-
+    if roman_string is not str:
+        return 0
     if "M" in roman_string:
         m = 1000
     if "MM" in roman_string:
