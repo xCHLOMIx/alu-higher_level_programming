@@ -13,7 +13,12 @@ def roman_to_int(roman_string):
     if "MMM" in roman_string:
         m = 3000
     if "C" in roman_string:
-        c = 100
+        if "XC" in roman_string:
+            c = 0
+        elif "CXC" in roman_string:
+            c = 100
+        else:
+            c = 100
     if "CC" in roman_string:
         c = 200
     if "CCC" in roman_string:
@@ -31,7 +36,12 @@ def roman_to_int(roman_string):
     if "CM" in roman_string:
         c = 900
     if "X" in roman_string:
-        x = 10
+        if "IX" in romanan_string:
+            x = 0
+        elif "XIX" in roman_string:
+            x = 10
+        else:
+            x = 10
     if "XX" in roman_string:
         x = 20
     if "XXX" in roman_string:
