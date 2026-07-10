@@ -4,7 +4,7 @@ def roman_to_int(roman_string):
     c = 0
     x = 0
     i = 0
-    if roman_string is not str:
+    if not isinstance(roman_string, str) or roman_string is None:
         return 0
     if "M" in roman_string:
         m = 1000
@@ -65,6 +65,8 @@ def roman_to_int(roman_string):
     if "VIII" in roman_string:
         i = 8
     if "IX" in roman_string:
-        x - 10
         i = 9
     return m + c + x + i
+
+roman_number = "DCCVII"
+print("{} = {}".format(roman_number, roman_to_int(roman_number)))
