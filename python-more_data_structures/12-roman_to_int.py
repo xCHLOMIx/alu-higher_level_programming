@@ -36,7 +36,7 @@ def roman_to_int(roman_string):
     if "CM" in roman_string:
         c = 900
     if "X" in roman_string:
-        if "IX" in romanan_string:
+        if "IX" in roman_string:
             x = 0
         elif "XIX" in roman_string:
             x = 10
