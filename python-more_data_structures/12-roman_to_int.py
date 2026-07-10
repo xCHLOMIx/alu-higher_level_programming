@@ -54,10 +54,10 @@ def roman_to_int(roman_string):
         i = 2
     if "III" in roman_string:
         i = 3
-    if "IV" in roman_string:
-        i = 4
     if "V" in roman_string:
         i = 5
+    if "IV" in roman_string:
+        i = 4
     if "VI" in roman_string:
         i = 6
     if "VII" in roman_string:
